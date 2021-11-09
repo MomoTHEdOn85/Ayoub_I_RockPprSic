@@ -1,66 +1,60 @@
 from random import randint
-
-choices = ["rock", "paper", "scissor"]
-
-# player will be the wepapon the player choose via input
-#Bolean values are True and False - you can use these to check state and then programming choicrs based on their value.
-player = False
-
-#player = input("Choose your weapon: rock, paper, scissor: ")
-
-#comp = choices[randint(0, 2)]
-
-#these lives need to decrement when a player loses a round
-playerLives = 5
-compLives = 5
-
-while player is False:
-
-	player = input("Choose your weapon: rock, paper, scissor:")
-
-	comp = choices[randint(0, 2)]
-
-	print("player chose: " + player)
-	print("computer chose: " + comp)
+from gameComponentss import winLose, gameVars
 
 
-	if (comp == player):
+
+#create an infinite loop (for now) so that we can keep playing
+while gameVars.player is False:
+
+	gameVars.player = input("Choose your weapon: rock, paper, scissor:")
+	gameVars.comp = gameVars.choices[randint(0, 2)]
+
+	print("player chose: " + gameVars.player)
+	print("computer chose: " + gameVars.comp)
+
+
+	if (gameVars.comp == gameVars.player):
 		# tie - nothing else to compare, so it'll sxit
 		print("tie!!!! try agiain")
 
 
-	elif (player == "rock"):
-		if(comp == "paper"):
+	elif (gameVars.player == "rock"):
+		if(gameVars.comp == "paper"):
 			print("you losee!!")
-			playerLives = playerLives - 1
+			gameVars.playerLives = gameVars.playerLives - 1
 		else:
 			print("you win")
-			compLives = compLives - 1
+			gameVars.compLives = gameVars.compLives - 1
 
 
-	elif (player == "paper"):
-		if(comp == "scissor"):
+	elif (gameVars.player == "paper"):
+		if(gameVars.comp == "scissor"):
 			print("you losee!!")
-			playerLives = playerLives - 1
+			gameVars.playerLives = gameVars.playerLives - 1
 		else:
 			print("you win")
-			compLives = compLives - 1
+			gameVars.compLives = gameVars.compLives - 1
 
 
 
-	elif (player == "scissor"):
-		if(comp == "rock"):
+	elif (gameVars.player == "scissor"):
+		if(gameVars.comp == "rock"):
 			print("you losee!!")
-			playerLives = playerLives - 1
+			gameVars.playerLives = gameVars.playerLives - 1
 		else:
 			print("you win")
-			compLives = compLives - 1
+			gameVars.compLives = gameVars.compLives - 1
 
 
-	print("Player Life count: " + str(playerLives))
-	print("Computer Life Count: " + str(compLives))
+	print("Player Life count: " + str(gameVars.playerLives))
+	print("Computer Life Count: " + str(gameVars.compLives))
 
-	player = False
+	if gameVars.playerLives == 0:
+		# call the winorlose funtion here
+		 winorlose("lost")
 
+	elif gameVars.compLives == 0:
+		 # call the wineorelose function here
+		 winorlose("win")
 
-
+	gameVars.player = False
