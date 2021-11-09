@@ -1,7 +1,5 @@
 from random import randint
-from gameComponentss import winLose, gameVars
-
-
+from gameComponentss import winlose, gameVars
 
 #create an infinite loop (for now) so that we can keep playing
 while gameVars.player is False:
