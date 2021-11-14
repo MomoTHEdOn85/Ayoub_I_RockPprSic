@@ -1,31 +1,41 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-# Rock Paper Scissor Game With Python!!
+![alt text](rps_image.png "Logo Title Text 1")
 
 
-## Installation
+      ===========================================================================
+## ||  ᕙ( ︡'︡益'︠)ง  The Great Rock Paper Scissors Battle with Python!! 💪 (•︡益︠•) 👊 ||
+      ===========================================================================
 
-TODO: Describe the installation process
+    Pick your weapon and play against the great enemy (computer) 
 
-## Usage
+    - You'll only get a virtual sting if you lose! :wink:
 
-TODO: Write usage instructions
+### Prerequisites
 
-## Contributing
+    All you need is Python 3 to enter the great battle.
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+### Usage
 
-## History
+    - Clone the project, <code>cd</code> to your directory
+    - Download, and 
+    - Run the game.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).
 
+### Rules
+    Same as the classic game:
+
+   - Paper covers Rock  
+   - Scissors cuts Paper  
+   - Rock smashes Scissors
+
+Choose your weapon wisely!
+
+Built with Python 3
+
+Enjoy!
 
 ## Credits
 
-// give accreditation to any resources / auhtors whose work you're using
+Immama Ayoub (>‿◠)✌
 
-## License
-
+### License 
 MIT
+© 2021 Immama Ayoub
