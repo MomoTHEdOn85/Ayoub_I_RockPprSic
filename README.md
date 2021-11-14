@@ -2,7 +2,7 @@
 
 
       ===========================================================================
-## ||  ᕙ( ︡'︡益'︠)ง  The Great Rock Paper Scissors Battle with Python!! 💪 (•︡益︠•) 👊 ||
+##  || ᕙ( ︡'︡益'︠)ง  The Great Rock Paper Scissors Battle with Python!! 💪 (•︡益︠•) 👊 ||
       ===========================================================================
 
     Pick your weapon and play against the great enemy (computer) 
