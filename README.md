@@ -17,6 +17,7 @@ All you need is <a href="https://www.python.org/"> Python 3 </a>to enter the gre
 - Clone the project, <code>cd</code> to your directory/download, and 
 - Run the game.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).
 
+
 ### Rules
 
 Same as the classic game:
