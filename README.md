@@ -1,33 +1,34 @@
 ![alt text](rps_image.png "Logo Title Text 1")
 
-=================================================================================
-##  || ᕙ( ︡'︡益'︠)ง  The Great Rock Paper Scissors Battle with Python!! 💪 (•︡益︠•) 👊 ||
-=================================================================================
+=============================================================================
+## ᕙ( ︡'︡益'︠)ง  The Great Rock Paper Scissors Battle with Python!! 💪 (•︡益︠•) 👊
+=============================================================================
 
-    Pick your weapon and play against the great enemy (computer) 
+Pick your weapon and play against the great enemy (computer) 
 
-    - You'll only get a virtual sting if you lose! 😜
+You'll only get a virtual sting if you lose!
 
 ### Prerequisites
 
-All you need is https://www.python.org/ to enter the great battle.
+All you need is <a href="https://www.python.org/"> Python 3 </a>to enter the great battle.
 
 ### Usage
 
-    - Clone the project, <code>cd</code> to your directory
-    - Download, and 
-    - Run the game.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).
+- Clone the project, <code>cd</code> to your directory/download, and 
+- Run the game.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).
+
 
 ### Rules
-    Same as the classic game:
 
-   - Paper covers Rock  
-   - Scissors cuts Paper  
-   - Rock smashes Scissors
+Same as the classic game:
+
+- Paper covers Rock  
+- Scissors cuts Paper  
+- Rock smashes Scissors
 
 Choose your weapon wisely!
 
-Built with Python 3
+Built with <a href="https://www.python.org/doc/"> Python 3 </a>
 
 Enjoy!
 
