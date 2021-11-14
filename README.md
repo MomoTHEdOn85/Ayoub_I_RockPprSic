@@ -10,7 +10,7 @@
 
 ### Prerequisites
 
-    All you need is Python 3 to enter the great battle.
+    All you need is https://www.python.org/ to enter the great battle.
 
 ### Usage
 
