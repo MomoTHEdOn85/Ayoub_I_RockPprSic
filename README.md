@@ -1,13 +1,12 @@
 ![alt text](rps_image.png "Logo Title Text 1")
 
-
-      ===========================================================================
+=================================================================================
 ##  || ᕙ( ︡'︡益'︠)ง  The Great Rock Paper Scissors Battle with Python!! 💪 (•︡益︠•) 👊 ||
-      ===========================================================================
+=================================================================================
 
     Pick your weapon and play against the great enemy (computer) 
 
-    - You'll only get a virtual sting if you lose! :wink:
+    - You'll only get a virtual sting if you lose! 😜
 
 ### Prerequisites
 
